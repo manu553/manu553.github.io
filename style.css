@@ -41,6 +41,15 @@ hr {
   margin-bottom: 2em;
 }
 
+ul {
+  color: #6d5e53;
+  font-size: 1.1em;
+}
+
+section ul li, section ol li {
+  line-height: 1.6 !important;
+}
+
 header {
   background-color: #999;
   background-image: url(img/background-img.jpg);
@@ -320,5 +329,11 @@ footer hr {
     text-align: left;
   }
   
+}
+
+.position-title {
+  margin: 0;
+  line-height: 1.2 !important;
+  font-style: italic;
 }
 
