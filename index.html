@@ -1,165 +1,235 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8" />
-	<title>Portfolio</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	<!--Custom fonts. To improve load times, remove this and update the h1 styling in style.css--> 
-	<link href='http://fonts.googleapis.com/css?family=Lato:300,700' rel='stylesheet' type='text/css'>
-	<!-- stylesheets -->
-	<link rel="stylesheet" href="style.css" type="text/css" />
-	<script src="https://kit.fontawesome.com/2a16a35bbc.js" crossorigin="anonymous"></script>
-	<!-- favicon -->
-	<link rel="shortcut icon" href="img/favicon.ico">
-	<!-- Bootstrap -->
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-	<!-- just in case viewer is using Internet Explorer -->
-	<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Manveer's Webpage</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
 
-</head>
+		<!-- Sidebar -->
+			<section id="sidebar">
+				<div class="inner">
+					<nav>
+						<ul>
+							<li><a href="#intro">Welcome</a></li>
+							<li><a href="#one">Projects</a></li>
+							<li><a href="#two">Skills</a></li>
+							<li><a href="#three">Get in touch</a></li>
+						</ul>
+					</nav>
+				</div>
+			</section>
 
-<body>
-	
-	<!-- Header-->
-	<header>
-		<h1>Manveer Bhangu</h1>
-		<p>Full Stack Developer</p>
-	</header>
-	
-	<div class="container">
-		
-		<!-- Introduction-->
-		<section class="center">
-			<h1>Welcome!</h1>
-			<div>
-				This is a quick single page website I've made that shows off some of the projects I've worked on in the past along with the skills I've developed along the way. Thanks for visiting!
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Intro -->
+					<section id="intro" class="wrapper style1 fullscreen fade-up">
+						<div class="inner">
+							<h1>Welcome!</h1>
+							<p>On this site you'll come to learn a little bit more about who I am and what I'm all about!<br/>
+							Continue scrolling to see all the projects I've worked on or currently have in progress!</p>
+							<ul class="actions">
+								<li><a href="#one" class="button scrolly">Learn more</a></li>
+							</ul>
+						</div>
+					</section>
+
+				<!-- Projects -->
+					<section id="one" class="wrapper style2 spotlights">
+						<section>
+							<div class="imgdiv">
+								<img class="contentimg" src="images/magic-mirror-gif.gif"/>
+							</div>
+							<div class="content">
+								<div class="inner">
+									<h2>Magic Mirror</h2>
+									<p>
+										A mirror with a twist! This "Magic Mirror" was built using a two-way reflective plexiglass mirror,
+										a monitor stripped of its plastics, a raspberry pi 4 and some random lumber I had lying around.
+										Behind the scenes, I'm running Raspian and a react based application in fullscreen mode that display
+										a bunch of information that has been personalized for me! Click "Learn More" to see the entire build
+										process start to end!
+									</p>
+									<ul class="actions">
+										<li><a href="https://photos.app.goo.gl/gNbHLAX7ebSQwKXT9" class="button">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<div class="imgdiv" style="margin: auto;width: 20%;">
+								<img class="contentimg" src="images/circleAbsorb_video.gif" />
+							</div>
+							<div class="content" style="width: 80%;">
+								<div class="inner">
+									<h2>Circle Absorber</h2>
+									<p>
+										A game developed for the first generation Pebble smartwatch where you control a big orb using the
+										accelerometer within the watch to collect smaller orbs. As time goes by more and more bombs come
+										into play. Click "Learn More" for more information.
+									</p>
+									<ul class="actions">
+										<li><a href="https://github.com/manu553/Circle-Absorber" class="button">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<div class="imgdiv">
+								<img class="contentimg" src="images/skippys_video.gif" />
+							</div>
+							<div class="content">
+								<div class="inner">
+									<h2>Skippy's Gold</h2>
+									<p>
+										Do you like treasure? Guide Skippy the pirate through the treacherous caves of the caribbean
+										to find long lost gold. The caves are dark and the paths are narrow. Test your ability to
+										remember the paths which skippy must follow to find the treasure!
+									</p>
+									<ul class="actions">
+										<li><a href="https://github.com/manu553/Skippys-Gold" class="button">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+					</section>
+
+				<!-- Skills -->
+					<section id="two" class="wrapper style3 fade-up">
+						<div class="inner">
+							<h2>Technical Background</h2>
+							<p>
+								After graduating BCIT in 2016, I've spent the next 5+ years steadly increasing my knowledge as a Full Stack Engineer
+								and am always looking for ways to make an impact and increase the knowledge I have as well as share it with others.
+								I am endlessly passionate about code and nothing makes me happier than seeing something I made make a difference to
+								someone else's life!
+							</p>
+							<div class="features">
+								<section>
+									<span class="icon solid major fa-code"></span>
+									<h3>Backend</h3>
+									<ul>
+										<li>.NET Stack (.Net Framework & .Net Core)</li>
+										<li>MVC, Entity Framework, Dependency Injection, SOLID Principles</li>
+										<li>LINQ, AutoMapper, Antlr</li>
+									</ul>
+								</section>
+								<section>
+									<span class="icon solid major fa-desktop"></span>
+									<h3>Frontend</h3>
+									<ul>
+										<li>Angular 2+, React</li>
+										<li>HTML5, CSS3, SCSS, TypeScript</li>
+										<li>XML, JSON, RESTful APIs</li>
+									</ul>								
+								</section>
+								<section>
+									<span class="icon solid major fa-cog"></span>
+									<h3>CI/CD</h3>
+									<ul>
+										<li>Jenkins, SonarQube, ReSharper</li>
+										<li>Octopus Deploy, PowerShell, AWS</li>
+										<li>Automated unit testing and integration testing</li>
+									</ul>								
+								</section>
+								<section>
+									<span class="icon solid major fa-database"></span>
+									<h3>Databases</h3>
+									<ul>
+										<li>MS SQL Server, Oracle, SQLite</li>
+										<li>T-SQL, PL/SQL</li>
+										<li>Writing complex stored procedures, optimizing databases</li>
+									</ul>								
+								</section>
+							</div>
+						</div>
+					</section>
+
+				<!-- Contact -->
+					<section id="three" class="wrapper style1 fade-up">
+						<div class="inner">
+							<h2>Get in touch</h2>
+							<div class="split style1">
+								<section>
+									<form method="post" action="https://formsubmit.co/manu.bhangu5530@email.com">
+										<div class="fields">
+											<div class="field half">
+												<label for="name">Name</label>
+												<input type="text" name="name" id="name" />
+											</div>
+											<div class="field half">
+												<label for="email">Email</label>
+												<input type="text" name="email" id="email" />
+											</div>
+											<div class="field">
+												<label for="message">Message</label>
+												<textarea name="message" id="message" rows="5"></textarea>
+											</div>
+										</div>
+										<ul class="actions">
+											<li><a href="" class="button submit">Send Message</a></li>
+										</ul>
+									</form>
+								</section>
+								<section>
+									<ul class="contact">
+										<li>
+											<h3>Address</h3>
+											<span>
+												New Westminster<br />
+												British Columbia, Canada
+											</span>
+										</li>
+										<li>
+											<h3>Email</h3>
+											<a href="#">manu.bhangu5530@gmail.com</a>
+										</li>
+										<li>
+											<h3>Socials</h3>
+											<ul class="icons">
+												<li><a href="https://github.com/manu553?tab=repositories" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+												<li><a href="https://www.linkedin.com/in/manveerb/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+											</ul>
+										</li>
+										<li>
+											<h3>Resume</h3>
+											<ul class="icons">
+												<li><a href="docs/resume.pdf" class="icon solid fa-file-pdf"><span class="label">Resume</span></a></li>
+											</ul>
+										</li>
+									</ul>
+								</section>
+							</div>
+						</div>
+					</section>
 			</div>
-			<div>
-				<a class="btn" href="https://github.com/manu553?tab=repositories" target="_blank">
-					<i class="fab fa-brands fa-github"></i>
-				</a>
-				<a class="btn" href="https://www.linkedin.com/in/manveerb/" target="_blank">
-					<i class="fab fa-brands fa-linkedin-in"></i>
-				</a>
-				<a class="btn" href="docs/resume.pdf" target="_blank">
-					<i class="fab fa-solid fa-file-pdf"></i>
-				</a>
-			</div>
-		</section>
-		
-		<hr>
-		
-		<!-- Gallery Block-->
-		<section class="gallery">
-			<h1 class="center">Photo Gallery</h1>
-			<div class="row">
-				<!-- Row 1 -->
-				<a target="_blank" href="img/skippys_main.png"><img src="img/skippys_main.png" class="grid-2"></a>
-				<a target="_blank" href="img/skippys_fullpath.png"><img src="img/skippys_fullpath.png" class="grid-2"></a>
-				<a target="_blank" href="img/skippys_pathdraw.png"><img src="img/skippys_pathdraw.png" class="grid-2"></a>
-				<!-- Row 2 -->
-				<a target="_blank" href="img/skippys_running.png"><img src="img/skippys_running.png" class="grid-2"></a>
-				<a target="_blank" href="img/skippys_gameover.png"><img src="img/skippys_gameover.png" class="grid-2"></a>
-				<a target="_blank" href="img/snap-n-draw-main.png"><img src="img/snap-n-draw-main.png" class="grid-2"></a>
-				<!-- Row 3 -->
-				<a target="_blank" href="img/snap-n-draw-draw.png"><img src="img/snap-n-draw-draw.png" class="grid-2"></a>
-				<a target="_blank" href="img/snap-n-draw-final.png"><img src="img/snap-n-draw-final.png" class="grid-2"></a>
-				<a target="_blank" href="img/circleAbsorb_main.png"><img src="img/circleAbsorb_main.png" class="grid-2"></a>
-				<!-- Row 4 -->
-				<a target="_blank" href="img/circleAbsorb_gameover.png"><img src="img/circleAbsorb_gameover.png" class="grid-2"></a>
-			</div>
-		</section>		
-	</div>
-	
-	<!-- Spotlight -->
-	<section class="spotlight">
-		<div class="container">
-			<div class = "row">
-				<div class="grid-3">
-					<img src="img/magic-mirror-gif.gif">
-				</div>
-				<div class="grid-3">
-					<h1>Magic Mirror</h1>
-					<p>Building a mirror that uses a two way reflective plex glass, a monitor, and a raspberry pi 4 to display some graphics behind the mirror.
-					   Click "View Project" to checkout the entire build process and end result!
-					</p>
-					<a href="https://photos.app.goo.gl/gNbHLAX7ebSQwKXT9" target="_blank">View Project</a>
-				</div>
-			</div>
-			<div class="row">
-				<div class="grid-3">
-					<img src="img/circleAbsorb_video.gif">
-				</div>
-				<div class="grid-3">
-					<h1>Circle Absorb</h1>
-					<p>A game developed for the first generation Pebble smartwatch where you control a big orb
-					   using the accelerometer within the watch to collect smaller orbs. As time goes by more and more
-					   bombs come into play. Click "View Project" for more information.</p>
-					<a href="https://github.com/manu553/Circle-Obsorber" target="_blank">View Project</a>
-				</div>
-			</div>
-			<div class = "row">
-				<div class="grid-3">
-					<img src="img/skippys_video.gif">
-				</div>
-				<div class="grid-3">
-					<h1>Skippy's Gold</h1>
-					<p>Do you like treasure? Guide Skippy the pirate through the treacherous caves of the caribbean to find long lost gold. The caves are dark and the paths are narrow. Test your ability to remember the paths which skippy must follow to find the treasure!</p>
-					<a href="https://github.com/manu553/Skippys-Gold" target="_blank">View Project</a>
-				</div>
-			</div>
-		</div>
-	</section>
-	
-	
-	<div class="container">
-		
-		<!-- Education -->
-		<section class="education">	
-			<h3>Computer Systems Technology Diploma <br> British Columbia Institute of Technology</h3>
-		</section>
-		
-		<hr>
-			
-		<!-- Work Experience -->
-		<section class="experience">
-			<div class="row">
-				<div class="grid-2">
-					<h3>Vancouver Society of Children's Centre</h3>
-					<p class="position-title">Web Developer</p>
-					<p>Jan 2016 - May 2016</p>
-				</div>
-				<div class="grid-4">
-					<ul>
-						<li>Worked with a team of 3 to develop a new website</li>
-						<li>Developed using WordPress to allow for a non-technical staff to update the site in the future</li>
-						<li>Designed the paging system, and grid layout for the site</li>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper style1-alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Manveer Bhangu 2022. All rights reserved.</li>
 					</ul>
 				</div>
-			</div>
-			<div class="row">
-				<div class="grid-2">
-					<h3>Spur Innovations Corp.</h3>
-					<p class="position-title">Software Developer</p>
-					<p>May 2016 - Jun 2016</p>
-				</div>
-				<div class="grid-4">
-					<ul>
-						<li>Developed a bootloader for a dsPIC33e Microcontroller</li>
-						<li>Gained experience with low level C and exposed to assembly</li>
-						<li>Allowed the device to be flashed and reformatted using an Android device</li>
-					</ul>
-				</div>
-			</div>
-		<!--Footer-->
-		<footer class="center">
-			<hr>
-			<span>Header Photo credits to: <a href="https://mingjuechen.carbonmade.com/" target="_blank">Mingjue Helen Chen</a><br>Manveer Bhangu 2022</span>
-		</footer>
-		
-	</div><!-- End Container -->
-</body>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
